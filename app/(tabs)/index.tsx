@@ -116,12 +116,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 4,
     elevation: 2,
-    height: 60, // Ensures all buttons have the same height
+    height: 60,
   },
   halfButton: {
-    flexBasis: '44%', // Ensures half buttons have the same width
+    flexBasis: '46%', 
     marginBottom: 16, // Adds space between rows
-    marginRight: '-%', // Adds space between buttons in the same row
+    marginRight: '-2%', // Adds space between buttons in the same row
   },
   fullButton: {
     flexBasis: '100%', // Ensures full buttons have the same width
